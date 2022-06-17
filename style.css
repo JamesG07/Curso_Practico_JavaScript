@@ -1,0 +1,51 @@
+body{
+    background-color: #caf0f8;
+}
+header{
+    text-align: center;
+    font-family: sans-serif;
+}
+header p{
+    font-weight: bold;
+    text-decoration: overline;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #caf0f8;
+    margin: 0 auto;
+}
+.section h2{
+    color: rgba(0,0,0,8);
+}
+.formulario{
+    margin: 25px;
+}
+.form-1{
+    padding-bottom: 25px;
+    background-color: #29AB87;
+    border-radius: 12px;
+    margin: 10px;
+    padding-left: 15px;
+    -webkit-box-shadow: -13px 14px 16px -4px rgba(26,33,33,1);
+    -moz-box-shadow: -13px 14px 16px -4px rgba(26,33,33,1);
+    box-shadow: -13px 14px 16px -4px rgba(26,33,33,1);
+}
+.form-2{
+    background-color: #50C878;
+    border-radius: 12px;
+    margin: 10px;
+    padding-left: 15px;
+    -webkit-box-shadow: -13px 14px 16px -4px rgba(26,33,33,1);
+-moz-box-shadow: -13px 14px 16px -4px rgba(26,33,33,1);
+box-shadow: -13px 14px 16px -4px rgba(26,33,33,1);
+}
+.form-3{
+    background-color: #48cae4;
+    border-radius: 12px;
+    margin: 10px;
+    padding-left: 15px;
+    -webkit-box-shadow: -13px 14px 16px -4px rgba(26,33,33,1);
+-moz-box-shadow: -13px 14px 16px -4px rgba(26,33,33,1);
+box-shadow: -13px 14px 16px -4px rgba(26,33,33,1);
+}
